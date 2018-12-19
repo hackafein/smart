@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "smART", "smART\smART.pyproj", "{9C9459D3-4257-4C71-B5F5-4B0DF429B87E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C9459D3-4257-4C71-B5F5-4B0DF429B87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9459D3-4257-4C71-B5F5-4B0DF429B87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9459D3-4257-4C71-B5F5-4B0DF429B87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9459D3-4257-4C71-B5F5-4B0DF429B87E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E927A16-07A2-4B93-BC85-098C0E0DB352}
+	EndGlobalSection
+EndGlobal

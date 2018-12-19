@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9c9459d3-4257-4c71-b5f5-4b0df429b87e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>smART</Name>
+    <RootNamespace>smART</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="smART\__init__.py" />
+    <Compile Include="smART\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="smART\" />
+    <Folder Include="smART\static\" />
+    <Folder Include="smART\static\img\" />
+    <Folder Include="smART\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="smART\static\analytics.js.indir" />
+    <Content Include="smART\static\animate.css" />
+    <Content Include="smART\static\anime.min.js.indir" />
+    <Content Include="smART\static\bootstrap.css" />
+    <Content Include="smART\static\bootstrap.min.js.indir" />
+    <Content Include="smART\static\box_roll.css" />
+    <Content Include="smART\static\component.css" />
+    <Content Include="smART\static\font-awesome.min.css" />
+    <Content Include="smART\static\img\ben.png" />
+    <Content Include="smART\static\img\emoji.png" />
+    <Content Include="smART\static\img\favicon.ico" />
+    <Content Include="smART\static\img\no-found-result.png" />
+    <Content Include="smART\static\index.js.indir" />
+    <Content Include="smART\static\info_icon.png" />
+    <Content Include="smART\static\jquery.js.indir" />
+    <Content Include="smART\static\jquery.lettering.js.indir" />
+    <Content Include="smART\static\kp.js.indir" />
+    <Content Include="smART\static\main.js.indir" />
+    <Content Include="smART\static\main_min.js.indir" />
+    <Content Include="smART\static\style.css" />
+    <Content Include="smART\templates\404.html" />
+    <Content Include="smART\templates\about.html" />
+    <Content Include="smART\templates\chosesite.html" />
+    <Content Include="smART\templates\index.html" />
+    <Content Include="smART\templates\smART.png" />
+    <Content Include="smART\templates\suggestions.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
